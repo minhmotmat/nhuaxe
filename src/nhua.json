@@ -1,0 +1,119 @@
+[
+  {
+    "Full": "SHM_2021_R350C-DO-DAM",
+    "Type": "SHM",
+    "Model": "2021",
+    "Color": "R350C-DO-DAM",
+    "Image": "/images/SHM_2021_R350C-DO-DAM.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZA",
+      "Price": 250000
+    },
+    "Nắp sau tay lái - Gáy": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZA",
+      "Price": 210000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NV10ZF",
+      "Price": 390000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZB",
+      "Price": 75000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZB",
+      "Price": 70000
+    }
+  },
+  {
+    "Full": "SHM_2022_NHC60-XAM-DEN",
+    "Type": "SHM",
+    "Model": "2022",
+    "Color": "NHC60-XAM-DEN",
+    "Image": "/images/SHM_2022_NHC60-XAM-DEN.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZF",
+      "Price": 260000
+    },
+    "Nắp sau tay lái - Gáy": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZG",
+      "Price": 220000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NV60ZB",
+      "Price": 405000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZA",
+      "Price": 50000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZA",
+      "Price": 65000
+    }
+  },
+  {
+    "Full": "SHM_2023_PB421-XANH",
+    "Type": "SHM",
+    "Model": "2023",
+    "Color": "PB421-XANH",
+    "Image": "/images/SHM_2023_PB421-XANH.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZJ",
+      "Price": 245000
+    },
+    "Nắp sau tay lái - Gáy": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZK",
+      "Price": 250000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NVD0ZB",
+      "Price": 410000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZA",
+      "Price": 50000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZA",
+      "Price": 65000
+    }
+  }
+]
