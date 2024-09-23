@@ -54,7 +54,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
           style={{ maxWidth: "100%", height: "auto" }}
         />
       )}
-      <h1>{part.Full}</h1>
+      <div style={{fontWeight: "bold"}}>{part.Full}</div>
       {Object.entries(groupedData).map(([partName, items]) => (
         <div key={partName}>
           <h4>{partName}</h4>
