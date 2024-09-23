@@ -62,8 +62,11 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
               globalIndex++; // Tăng chỉ số toàn cục
               return (
                 <li key={Ma}>
+                  <span style={{ fontWeight: "bold", color: "black" }}>
+                    {globalIndex}.
+                  </span>
                   <span style={{ fontWeight: "bold", color: "brown" }}>
-                    {globalIndex}. {name}:
+                    {name}:
                   </span>{" "}
                   {Ma} -
                   <span style={{ fontWeight: "bold" }}>
