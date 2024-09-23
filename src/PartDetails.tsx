@@ -9,7 +9,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
   if (!part) {
     return <div>Không tìm thấy thông tin phần.</div>;
   }
-  console.log(part);
+  // console.log(part);
   const formatPrice = (price: number) => {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   };
@@ -19,7 +19,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
       console.error("Lỗi khi sao chép: ", err);
     });
   };
-  console.log(part);
+  // console.log(part);
   const filtered = Object.entries(part).filter(
     ([_, value]) =>
       typeof value === "object" &&
