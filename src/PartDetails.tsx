@@ -20,31 +20,30 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
     });
   };
 
-  let filtered = Object.entries(part).filter((value) => {
-    // console.log(value[1]);
-    return (
-      typeof value[1] === "object" &&
-      value[1] !== null &&
-      "Ma" in value[1] &&
-      "Price" in value[1]
-    );
-  });
-  console.log(filtered);
-  // Hàm nhóm dữ liệu theo trường 'Part'
-  const groupByPart = (data: any) => {
-    const grouped = {};
+  const filtered = Object.entries(part).filter(
+    ([_, value]) =>
+      typeof value === "object" &&
+      value !== null &&
+      "Ma" in value &&
+      "Price" in value
+  );
 
-    data.forEach(([name, detail]) => {
-      if (!grouped[detail.Part]) {
-        grouped[detail.Part] = [];
+  const groupByPart = (data: [string, any][]) => {
+    const grouped = data.reduce((acc, [name, detail]) => {
+      const partName = detail.Part || "Khác"; // Nếu không có Part, gán là "Khác"
+      if (!acc[partName]) {
+        acc[partName] = [];
       }
-      grouped[detail.Part].push({ name, ...detail });
-    });
+      acc[partName].push({ name, ...detail });
+      return acc;
+    }, {} as Record<string, any[]>);
 
     return grouped;
   };
-  let groupedData = groupByPart(filtered);
-  console.log(groupedData);
+
+  const groupedData = groupByPart(filtered);
+
+  let globalIndex = 0; // Biến để đánh số thứ tự toàn bộ
 
   return (
     <div>
@@ -59,53 +58,30 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
         <div key={partName}>
           <h4>{partName}</h4>
           <ul>
-            {items.map(({ name, Ma, Price }) => (
-              <li key={Ma}>
-                <span style={{ fontWeight: "bold", color: "brown" }}>
-                  {name}:
-                </span>{" "}
-                {Ma} -
-                <span style={{ fontWeight: "bold" }}>
-                  {" "}
-                  {formatPrice(Price)} VND
-                </span>
-                <button
-                  onClick={() => handleCopy(Ma)}
-                  style={{ marginLeft: "10px" }}
-                >
-                  Copy
-                </button>
-              </li>
-            ))}
+            {items.map(({ name, Ma, Price }) => {
+              globalIndex++; // Tăng chỉ số toàn cục
+              return (
+                <li key={Ma}>
+                  <span style={{ fontWeight: "bold", color: "brown" }}>
+                    {globalIndex}. {name}:
+                  </span>{" "}
+                  {Ma} -
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    {formatPrice(Price)} VND
+                  </span>
+                  <button
+                    onClick={() => handleCopy(Ma)}
+                    style={{ marginLeft: "10px" }}
+                  >
+                    Copy
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
       ))}
-      {/* {Object.entries(part).map(([key, value]) => {
-        if (
-          typeof value === "object" &&
-          value !== null &&
-          "Ma" in value &&
-          "Price" in value
-        ) {
-          return (
-            <div key={key}>
-              <span style={{ fontWeight: "bold", color: "brown" }}>{key}:</span>{" "}
-              {value.Ma} -
-              <span style={{ fontWeight: "bold" }}>
-                {" "}
-                {formatPrice(value.Price)} VND
-              </span>
-              <button
-                onClick={() => handleCopy(value.Ma)}
-                style={{ marginLeft: "10px" }}
-              >
-                Copy
-              </button>
-            </div>
-          );
-        }
-        return null;
-      })} */}
     </div>
   );
 };
