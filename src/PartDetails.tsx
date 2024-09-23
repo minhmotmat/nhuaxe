@@ -65,10 +65,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
                   <span style={{ fontWeight: "bold", color: "black" }}>
                     {globalIndex}.
                   </span>
-                  <span style={{ fontWeight: "bold", color: "blue" }}>
-                    {name}:
-                  </span>{" "}
-                  {Ma} -
+                  <span style={{ color: "#007BFF" }}>{name}:</span> {Ma} -
                   <span style={{ fontWeight: "bold" }}>
                     {" "}
                     {formatPrice(Price)} VND
