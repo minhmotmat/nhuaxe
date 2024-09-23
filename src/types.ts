@@ -9,5 +9,5 @@ export interface PartData {
     Model: string;
     Color: string;
     Image: string;
-    [key: string]: PartDetail | string;
+    [key: string]: any;
 }
