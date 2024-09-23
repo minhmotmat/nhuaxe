@@ -1,6 +1,7 @@
 export interface PartDetail {
     Ma: string;
     Price: number;
+    Part: string;
 }
 
 export interface PartData {
