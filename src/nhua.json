@@ -215,7 +215,7 @@
       "Price": 90000,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZK",
       "Price": 100000,
       "Part": "Ốp thân"
@@ -273,6 +273,7 @@
     },
     "Mặt nạ to - Bộ ốp trên phía trước": {
       "Ma": "64300K1NVD0ZB",
+      "Price": 0,
       "Part": "Mặt nạ trước phía trước"
     },
     "Yếm phải - Ốp cạnh trước bên phải": {
@@ -407,6 +408,7 @@
     },
     "Sườn phải - Bộ ốp thân bên phải": {
       "Ma": "83510K1NVD0ZD",
+      "Price": 0,
       "Part": "Ốp thân"
     },
     "Ốp phải sườn dưới": {
@@ -439,7 +441,7 @@
       "Price": 95000,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZD",
       "Price": 105000,
       "Part": "Ốp thân"
@@ -457,6 +459,7 @@
     "Image": "/images/SHM_2023_R368-DO-TUOI.png",
     "Ốp trước tay lái": {
       "Ma": "53205K1NV00ZH",
+      "Price": 0,
       "Part": "Đầu"
     },
     "Gáy - Nắp sau tay lái": {
@@ -546,6 +549,7 @@
     },
     "Yếm trái - Ốp cạnh trước bên trái": {
       "Ma": "64401K1NV00ZJ",
+      "Price": 0,
       "Part": "Mặt nạ trước phía trước"
     },
     "Nắp ắc quy - Nắp bình điện": {
@@ -585,6 +589,7 @@
     },
     "Nắp hộp để đồ trong": {
       "Ma": "81133K1NV00ZJ",
+      "Price": 0,
       "Part": "Mặt nạ trước phía sau"
     },
     "Ốp ổ khóa - Ốp dưới bên trong": {
@@ -659,10 +664,12 @@
     },
     "Ốp đuôi to - Ốp giữa phía sau A": {
       "Ma": "83751K1NV00ZJ",
+      "Price": 0,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZJ",
+      "Price": 0,
       "Part": "Ốp thân"
     },
     "Yên xe": {
@@ -886,7 +893,7 @@
       "Price": 90000,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZK",
       "Price": 100000,
       "Part": "Ốp thân"
@@ -908,6 +915,7 @@
     "Image": "/images/SHM_2023CC_R368-DO-TUOI.png",
     "Ốp trước tay lái": {
       "Ma": "53205K1NV00ZH",
+      "Price": 0,
       "Part": "Đầu"
     },
     "Gáy - Nắp sau tay lái": {
@@ -997,6 +1005,7 @@
     },
     "Yếm trái - Ốp cạnh trước bên trái": {
       "Ma": "64401K1NV00ZJ",
+      "Price": 0,
       "Part": "Mặt nạ trước phía trước"
     },
     "Nắp ắc quy - Nắp bình điện": {
@@ -1036,6 +1045,7 @@
     },
     "Nắp hộp để đồ trong": {
       "Ma": "81133K1NV00ZJ",
+      "Price": 0,
       "Part": "Mặt nạ trước phía sau"
     },
     "Ốp ổ khóa - Ốp dưới bên trong": {
@@ -1110,10 +1120,12 @@
     },
     "Ốp đuôi to - Ốp giữa phía sau A": {
       "Ma": "83751K1NV00ZJ",
+      "Price": 0,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZJ",
+      "Price": 0,
       "Part": "Ốp thân"
     },
     "Yên xe": {
@@ -1310,7 +1322,7 @@
       "Price": 100000,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZH",
       "Price": 105000,
       "Part": "Ốp thân"
@@ -1363,6 +1375,7 @@
     },
     "Bộ chắn bùn trước": {
       "Ma": "61000K1NVE0ZA",
+      "Price": 0,
       "Part": "Chắn bùn trước"
     },
     "Chắn bùn bên trong trước phải": {
@@ -1514,17 +1527,19 @@
       "Price": 95000,
       "Part": "Ốp thân"
     },
-    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+    "Ốp đuôi nhỏ - Ốp giữa phía sau B": {
       "Ma": "83761K1NV00ZF",
       "Price": 105000,
       "Part": "Ốp thân"
     },
     "Sườn trái - Bộ ốp thân bên trái": {
       "Ma": "83610K1NVD0ZB",
+      "Price": 0,
       "Part": "Ốp thân"
     },
     "Sườn phải - Bộ ốp thân bên phải": {
       "Ma": "83510K1NVD0ZB",
+      "Price": 0,
       "Part": "Ốp thân"
     },
     "Yên xe": {

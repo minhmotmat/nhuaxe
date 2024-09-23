@@ -19,7 +19,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
       console.error("Lỗi khi sao chép: ", err);
     });
   };
-
+  console.log(part);
   const filtered = Object.entries(part).filter(
     ([_, value]) =>
       typeof value === "object" &&
