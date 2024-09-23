@@ -1,83 +1,5 @@
 [
   {
-    "Full": "SHM_2021_R350C-DO-DAM",
-    "Type": "SHM",
-    "Model": "2021",
-    "Color": "R350C-DO-DAM",
-    "Image": "/images/SHM_2021_R350C-DO-DAM.png",
-    "Ốp trước tay lái": {
-      "Ma": "53205K1NV00ZA",
-      "Price": 250000
-    },
-    "Nắp sau tay lái - Gáy": {
-      "Ma": "53208K1NV00",
-      "Price": 260000
-    },
-    "Nắp ốp đồng hồ": {
-      "Ma": "53207K1NV00",
-      "Price": 235000
-    },
-    "Vành đèn pha": {
-      "Ma": "53206K1NV00ZB",
-      "Price": 155000
-    },
-    "Ốp giữa sau tay lái": {
-      "Ma": "53209K1NV00ZA",
-      "Price": 210000
-    },
-    "Bộ chắn bùn trước": {
-      "Ma": "61000K1NV10ZF",
-      "Price": 390000
-    },
-    "Chắn bùn bên trong trước phải": {
-      "Ma": "61201K1NV00ZB",
-      "Price": 75000
-    },
-    "Chắn bùn bên trong trước trái": {
-      "Ma": "61301K1NV00ZB",
-      "Price": 70000
-    }
-  },
-  {
-    "Full": "SHM_2022_NHC60-XAM-DEN",
-    "Type": "SHM",
-    "Model": "2022",
-    "Color": "NHC60-XAM-DEN",
-    "Image": "/images/SHM_2022_NHC60-XAM-DEN.png",
-    "Ốp trước tay lái": {
-      "Ma": "53205K1NV00ZF",
-      "Price": 260000
-    },
-    "Nắp sau tay lái - Gáy": {
-      "Ma": "53208K1NV00",
-      "Price": 260000
-    },
-    "Nắp ốp đồng hồ": {
-      "Ma": "53207K1NV00",
-      "Price": 235000
-    },
-    "Vành đèn pha": {
-      "Ma": "53206K1NV00ZB",
-      "Price": 155000
-    },
-    "Ốp giữa sau tay lái": {
-      "Ma": "53209K1NV00ZG",
-      "Price": 220000
-    },
-    "Bộ chắn bùn trước": {
-      "Ma": "61000K1NV60ZB",
-      "Price": 405000
-    },
-    "Chắn bùn bên trong trước phải": {
-      "Ma": "61201K1NV00ZA",
-      "Price": 50000
-    },
-    "Chắn bùn bên trong trước trái": {
-      "Ma": "61301K1NV00ZA",
-      "Price": 65000
-    }
-  },
-  {
     "Full": "SHM_2023_PB421-XANH",
     "Type": "SHM",
     "Model": "2023",
@@ -87,7 +9,7 @@
       "Ma": "53205K1NV00ZJ",
       "Price": 245000
     },
-    "Nắp sau tay lái - Gáy": {
+    "Gáy - Nắp sau tay lái": {
       "Ma": "53206K1NV00ZB",
       "Price": 155000
     },
@@ -114,6 +36,881 @@
     "Chắn bùn bên trong trước trái": {
       "Ma": "61301K1NV00ZA",
       "Price": 65000
+    },
+    "Mặt nạ to - Bộ ốp trên phía trước": {
+      "Ma": "64300K1NVD0ZC",
+      "Price": 160000
+    },
+    "Yếm phải - Ốp cạnh trước bên phải": {
+      "Ma": "64301K1NV00ZK",
+      "Price": 230000
+    },
+    "Vành mặt nạ - Trang trí phía trước": {
+      "Ma": "64305K1NV00",
+      "Price": 325000
+    },
+    "Gầm cong - Ốp trước phía dưới": {
+      "Ma": "64308K1NV00",
+      "Price": 110000
+    },
+    "Sàn - Ốp sàn để chân": {
+      "Ma": "64310K1NV00ZB",
+      "Price": 230000
+    },
+    "Ốp bên sàn phải": {
+      "Ma": "64321K1NV00ZK",
+      "Price": 180000
+    },
+    "Ốp bên sàn trái": {
+      "Ma": "64322K1NV00ZK",
+      "Price": 180000
+    },
+    "Ốp trước sàn để chân bên phải": {
+      "Ma": "64323K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp trước sàn để chân bên trái": {
+      "Ma": "64324K1NV00ZB",
+      "Price": 20000
+    },
+    "Gầm bằng - Ốp dưới": {
+      "Ma": "64340K1NV00ZB",
+      "Price": 195000
+    },
+    "Yếm trái - Ốp cạnh trước bên trái": {
+      "Ma": "64401K1NV00ZK",
+      "Price": 230000
+    },
+    "Nắp ắc quy - Nắp bình điện": {
+      "Ma": "64461K1NV00ZB",
+      "Price": 25000
+    },
+    "Bắt biển số - Chắn bùn sau A": {
+      "Ma": "80101K1NV00ZB",
+      "Price": 160000
+    },
+    "Chắn bùn B": {
+      "Ma": "80102K1NV00",
+      "Price": 205000
+    },
+    "Chắn bùn gầm - Chắn bùn C sau": {
+      "Ma": "80103K1NV00",
+      "Price": 95000
+    },
+    "Bộ nắp đèn soi biền số": {
+      "Ma": "80110K1NV00ZB",
+      "Price": 95000
+    },
+    "Ốp nhựa trung tâm": {
+      "Ma": "80151K1NV00ZB",
+      "Price": 100000
+    },
+    "Ốp trong phía trên": {
+      "Ma": "81131K1NV00ZK",
+      "Price": 195000
+    },
+    "Nắp hộp để đồ trong": {
+      "Ma": "81133K1NV00ZK",
+      "Price": 255000
+    },
+    "Ốp ổ khóa - Ốp dưới bên trong": {
+      "Ma": "81141K1NV00ZB",
+      "Price": 375000
+    },
+    "Nắp khẩn cấp - Nắp bảo trì bên phải": {
+      "Ma": "81144K1NV00ZB",
+      "Price": 25000
+    },
+    "Trang trí ốp sườn phải": {
+      "Ma": "83410K1NV00",
+      "Price": 250000
+    },
+    "Trang trí ốp sườn trái": {
+      "Ma": "83420K1NV00",
+      "Price": 250000
+    },
+    "Ốp sàn để chân sau phải": {
+      "Ma": "83430K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau trái": {
+      "Ma": "83440K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau phải B": {
+      "Ma": "83450K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp sàn để chân sau trái B": {
+      "Ma": "83460K1NV00ZB",
+      "Price": 20000
+    },
+    "Sườn phải - Bộ ốp thân bên phải": {
+      "Ma": "83510K1NVD0ZE",
+      "Price": 785000
+    },
+    "Ốp phải sườn dưới": {
+      "Ma": "83521K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ôp xi nhan sau phải": {
+      "Ma": "83531K1NV00",
+      "Price": 335000
+    },
+    "Sườn trái - Bộ ốp thân bên trái": {
+      "Ma": "83610K1NVD0ZE",
+      "Price": 785000
+    },
+    "Ốp trái sườn dưới": {
+      "Ma": "83621K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ốp xi nhan sau trái": {
+      "Ma": "83631K1NV00",
+      "Price": 335000
+    },
+    "Ốp đuôi to - Ốp giữa phía sau A": {
+      "Ma": "83751K1NV00ZK",
+      "Price": 90000
+    },
+    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+      "Ma": "83761K1NV00ZK",
+      "Price": 100000
+    },
+    "Yên xe": {
+      "Ma": "77200K1NV00ZB",
+      "Price": 1200000
+    },
+    "Logo sườn": {}
+  },
+  {
+    "Full": "SHM_2023_NHB55P-TRANG",
+    "Type": "SHM",
+    "Model": "2023",
+    "Color": "NHB55P-TRANG",
+    "Image": "/images/SHM_2023_NHB55P-TRANG.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZD",
+      "Price": 250000
+    },
+    "Gáy - Nắp sau tay lái": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZD",
+      "Price": 250000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NVD0ZA",
+      "Price": 405000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZA",
+      "Price": 50000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZA",
+      "Price": 65000
+    },
+    "Mặt nạ to - Bộ ốp trên phía trước": {
+      "Ma": "64300K1NVD0ZB"
+    },
+    "Yếm phải - Ốp cạnh trước bên phải": {
+      "Ma": "64301K1NV00ZD",
+      "Price": 235000
+    },
+    "Vành mặt nạ - Trang trí phía trước": {
+      "Ma": "64305K1NV00",
+      "Price": 325000
+    },
+    "Gầm cong - Ốp trước phía dưới": {
+      "Ma": "64308K1NV00",
+      "Price": 110000
+    },
+    "Sàn - Ốp sàn để chân": {
+      "Ma": "64310K1NV00ZB",
+      "Price": 230000
+    },
+    "Ốp bên sàn phải": {
+      "Ma": "64321K1NV00ZD",
+      "Price": 185000
+    },
+    "Ốp bên sàn trái": {
+      "Ma": "64322K1NV00ZD",
+      "Price": 180000
+    },
+    "Ốp trước sàn để chân bên phải": {
+      "Ma": "64323K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp trước sàn để chân bên trái": {
+      "Ma": "64324K1NV00ZB",
+      "Price": 20000
+    },
+    "Gầm bằng - Ốp dưới": {
+      "Ma": "64340K1NV00ZB",
+      "Price": 195000
+    },
+    "Yếm trái - Ốp cạnh trước bên trái": {
+      "Ma": "64401K1NV00ZD",
+      "Price": 235000
+    },
+    "Nắp ắc quy - Nắp bình điện": {
+      "Ma": "64461K1NV00ZB",
+      "Price": 25000
+    },
+    "Bắt biển số - Chắn bùn sau A": {
+      "Ma": "80101K1NV00ZB",
+      "Price": 160000
+    },
+    "Chắn bùn B": {
+      "Ma": "80102K1NV00",
+      "Price": 205000
+    },
+    "Chắn bùn gầm - Chắn bùn C sau": {
+      "Ma": "80103K1NV00",
+      "Price": 95000
+    },
+    "Bộ nắp đèn soi biền số": {
+      "Ma": "80110K1NV00ZB",
+      "Price": 95000
+    },
+    "Ốp nhựa trung tâm": {
+      "Ma": "80151K1NV00ZB",
+      "Price": 100000
+    },
+    "Ốp trong phía trên": {
+      "Ma": "81131K1NV00ZD",
+      "Price": 200000
+    },
+    "Nắp hộp để đồ trong": {
+      "Ma": "81133K1NV00ZD",
+      "Price": 245000
+    },
+    "Ốp ổ khóa - Ốp dưới bên trong": {
+      "Ma": "81141K1NV00ZB",
+      "Price": 375000
+    },
+    "Nắp khẩn cấp - Nắp bảo trì bên phải": {
+      "Ma": "81144K1NV00ZB",
+      "Price": 25000
+    },
+    "Trang trí ốp sườn phải": {
+      "Ma": "83410K1NV00",
+      "Price": 250000
+    },
+    "Trang trí ốp sườn trái": {
+      "Ma": "83420K1NV00",
+      "Price": 250000
+    },
+    "Ốp sàn để chân sau phải": {
+      "Ma": "83430K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau trái": {
+      "Ma": "83440K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau phải B": {
+      "Ma": "83450K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp sàn để chân sau trái B": {
+      "Ma": "83460K1NV00ZB",
+      "Price": 20000
+    },
+    "Sườn phải - Bộ ốp thân bên phải": {
+      "Ma": "83510K1NVD0ZD"
+    },
+    "Ốp phải sườn dưới": {
+      "Ma": "83521K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ôp xi nhan sau phải": {
+      "Ma": "83531K1NV00",
+      "Price": 335000
+    },
+    "Sườn trái - Bộ ốp thân bên trái": {
+      "Ma": "83610K1NVD0ZD",
+      "Price": 715000
+    },
+    "Ốp trái sườn dưới": {
+      "Ma": "83621K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ốp xi nhan sau trái": {
+      "Ma": "83631K1NV00",
+      "Price": 335000
+    },
+    "Ốp đuôi to - Ốp giữa phía sau A": {
+      "Ma": "83751K1NV00ZD",
+      "Price": 95000
+    },
+    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+      "Ma": "83761K1NV00ZD",
+      "Price": 105000
+    },
+    "Yên xe": {
+      "Ma": "77200K1NV00ZB",
+      "Price": 1200000
+    },
+    "Logo sườn": {}
+  },
+  {
+    "Full": "SHM_2023_R368-DO-TUOI",
+    "Type": "SHM",
+    "Model": "2023",
+    "Color": "R368-DO-TUOI",
+    "Image": "/images/SHM_2023_R368-DO-TUOI.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZH"
+    },
+    "Gáy - Nắp sau tay lái": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZJ",
+      "Price": 220000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NVD0ZC",
+      "Price": 395000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZA",
+      "Price": 50000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZA",
+      "Price": 65000
+    },
+    "Mặt nạ to - Bộ ốp trên phía trước": {
+      "Ma": "64300K1NVD0ZD",
+      "Price": 155000
+    },
+    "Yếm phải - Ốp cạnh trước bên phải": {
+      "Ma": "64301K1NV00ZJ",
+      "Price": 230000
+    },
+    "Vành mặt nạ - Trang trí phía trước": {
+      "Ma": "64305K1NV00",
+      "Price": 325000
+    },
+    "Gầm cong - Ốp trước phía dưới": {
+      "Ma": "64308K1NV00",
+      "Price": 110000
+    },
+    "Sàn - Ốp sàn để chân": {
+      "Ma": "64310K1NV00ZB",
+      "Price": 230000
+    },
+    "Ốp bên sàn phải": {
+      "Ma": "64321K1NV00ZJ",
+      "Price": 180000
+    },
+    "Ốp bên sàn trái": {
+      "Ma": "64322K1NV00ZJ",
+      "Price": 180000
+    },
+    "Ốp trước sàn để chân bên phải": {
+      "Ma": "64323K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp trước sàn để chân bên trái": {
+      "Ma": "64324K1NV00ZB",
+      "Price": 20000
+    },
+    "Gầm bằng - Ốp dưới": {
+      "Ma": "64340K1NV00ZB",
+      "Price": 195000
+    },
+    "Yếm trái - Ốp cạnh trước bên trái": {
+      "Ma": "64401K1NV00ZJ"
+    },
+    "Nắp ắc quy - Nắp bình điện": {
+      "Ma": "64461K1NV00ZB",
+      "Price": 25000
+    },
+    "Bắt biển số - Chắn bùn sau A": {
+      "Ma": "80101K1NV00ZB",
+      "Price": 160000
+    },
+    "Chắn bùn B": {
+      "Ma": "80102K1NV00",
+      "Price": 205000
+    },
+    "Chắn bùn gầm - Chắn bùn C sau": {
+      "Ma": "80103K1NV00",
+      "Price": 95000
+    },
+    "Bộ nắp đèn soi biền số": {
+      "Ma": "80110K1NV00ZB",
+      "Price": 95000
+    },
+    "Ốp nhựa trung tâm": {
+      "Ma": "80151K1NV00ZB",
+      "Price": 100000
+    },
+    "Ốp trong phía trên": {
+      "Ma": "81131K1NV00ZJ",
+      "Price": 180000
+    },
+    "Nắp hộp để đồ trong": {
+      "Ma": "81133K1NV00ZJ"
+    },
+    "Ốp ổ khóa - Ốp dưới bên trong": {
+      "Ma": "81141K1NV00ZB",
+      "Price": 375000
+    },
+    "Nắp khẩn cấp - Nắp bảo trì bên phải": {
+      "Ma": "81144K1NV00ZB",
+      "Price": 25000
+    },
+    "Trang trí ốp sườn phải": {
+      "Ma": "83410K1NV00",
+      "Price": 250000
+    },
+    "Trang trí ốp sườn trái": {
+      "Ma": "83420K1NV00",
+      "Price": 250000
+    },
+    "Ốp sàn để chân sau phải": {
+      "Ma": "83430K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau trái": {
+      "Ma": "83440K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau phải B": {
+      "Ma": "83450K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp sàn để chân sau trái B": {
+      "Ma": "83460K1NV00ZB",
+      "Price": 20000
+    },
+    "Sườn phải - Bộ ốp thân bên phải": {
+      "Ma": "83510K1NVD0ZF",
+      "Price": 785000
+    },
+    "Ốp phải sườn dưới": {
+      "Ma": "83521K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ôp xi nhan sau phải": {
+      "Ma": "83531K1NV00",
+      "Price": 335000
+    },
+    "Sườn trái - Bộ ốp thân bên trái": {
+      "Ma": "83610K1NVD0ZF",
+      "Price": 785000
+    },
+    "Ốp trái sườn dưới": {
+      "Ma": "83621K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ốp xi nhan sau trái": {
+      "Ma": "83631K1NV00",
+      "Price": 335000
+    },
+    "Ốp đuôi to - Ốp giữa phía sau A": {
+      "Ma": "83751K1NV00ZJ"
+    },
+    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+      "Ma": "83761K1NV00ZJ"
+    },
+    "Yên xe": {
+      "Ma": "77200K1NV00ZB",
+      "Price": 1200000
+    },
+    "Logo sườn": {}
+  },
+  {
+    "Full": "SHM_2023CC_PB421-XANH",
+    "Type": "SHM",
+    "Model": "2023CC",
+    "Color": "PB421-XANH",
+    "Image": "/images/SHM_2023CC_PB421-XANH.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZJ",
+      "Price": 245000
+    },
+    "Gáy - Nắp sau tay lái": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZK",
+      "Price": 250000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NVD0ZB",
+      "Price": 410000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZA",
+      "Price": 50000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZA",
+      "Price": 65000
+    },
+    "Mặt nạ to - Bộ ốp trên phía trước": {
+      "Ma": "64300K1NVD0ZC",
+      "Price": 160000
+    },
+    "Yếm phải - Ốp cạnh trước bên phải": {
+      "Ma": "64301K1NV00ZK",
+      "Price": 230000
+    },
+    "Vành mặt nạ - Trang trí phía trước": {
+      "Ma": "64305K1NV00",
+      "Price": 325000
+    },
+    "Gầm cong - Ốp trước phía dưới": {
+      "Ma": "64308K1NV00",
+      "Price": 110000
+    },
+    "Sàn - Ốp sàn để chân": {
+      "Ma": "64310K1NV00ZB",
+      "Price": 230000
+    },
+    "Ốp bên sàn phải": {
+      "Ma": "64321K1NV00ZK",
+      "Price": 180000
+    },
+    "Ốp bên sàn trái": {
+      "Ma": "64322K1NV00ZK",
+      "Price": 180000
+    },
+    "Ốp trước sàn để chân bên phải": {
+      "Ma": "64323K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp trước sàn để chân bên trái": {
+      "Ma": "64324K1NV00ZB",
+      "Price": 20000
+    },
+    "Gầm bằng - Ốp dưới": {
+      "Ma": "64340K1NV00ZB",
+      "Price": 195000
+    },
+    "Yếm trái - Ốp cạnh trước bên trái": {
+      "Ma": "64401K1NV00ZK",
+      "Price": 230000
+    },
+    "Nắp ắc quy - Nắp bình điện": {
+      "Ma": "64461K1NV00ZB",
+      "Price": 25000
+    },
+    "Bắt biển số - Chắn bùn sau A": {
+      "Ma": "80101K1NV00ZB",
+      "Price": 160000
+    },
+    "Chắn bùn B": {
+      "Ma": "80102K1NV00",
+      "Price": 205000
+    },
+    "Chắn bùn gầm - Chắn bùn C sau": {
+      "Ma": "80103K1NV00",
+      "Price": 95000
+    },
+    "Bộ nắp đèn soi biền số": {
+      "Ma": "80110K1NV00ZB",
+      "Price": 95000
+    },
+    "Ốp nhựa trung tâm": {
+      "Ma": "80151K1NV00ZB",
+      "Price": 100000
+    },
+    "Ốp trong phía trên": {
+      "Ma": "81131K1NV00ZK",
+      "Price": 195000
+    },
+    "Nắp hộp để đồ trong": {
+      "Ma": "81133K1NV00ZK",
+      "Price": 255000
+    },
+    "Ốp ổ khóa - Ốp dưới bên trong": {
+      "Ma": "81141K1NV00ZB",
+      "Price": 375000
+    },
+    "Nắp khẩn cấp - Nắp bảo trì bên phải": {
+      "Ma": "81144K1NV00ZB",
+      "Price": 25000
+    },
+    "Trang trí ốp sườn phải": {
+      "Ma": "83410K1NV00",
+      "Price": 250000
+    },
+    "Trang trí ốp sườn trái": {
+      "Ma": "83420K1NV00",
+      "Price": 250000
+    },
+    "Ốp sàn để chân sau phải": {
+      "Ma": "83430K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau trái": {
+      "Ma": "83440K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau phải B": {
+      "Ma": "83450K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp sàn để chân sau trái B": {
+      "Ma": "83460K1NV00ZB",
+      "Price": 20000
+    },
+    "Sườn phải - Bộ ốp thân bên phải": {
+      "Ma": "83510K1NVD0ZE",
+      "Price": 785000
+    },
+    "Ốp phải sườn dưới": {
+      "Ma": "83521K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ôp xi nhan sau phải": {
+      "Ma": "83531K1NV00",
+      "Price": 335000
+    },
+    "Sườn trái - Bộ ốp thân bên trái": {
+      "Ma": "83610K1NVD0ZE",
+      "Price": 785000
+    },
+    "Ốp trái sườn dưới": {
+      "Ma": "83621K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ốp xi nhan sau trái": {
+      "Ma": "83631K1NV00",
+      "Price": 335000
+    },
+    "Ốp đuôi to - Ốp giữa phía sau A": {
+      "Ma": "83751K1NV00ZK",
+      "Price": 90000
+    },
+    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+      "Ma": "83761K1NV00ZK",
+      "Price": 100000
+    },
+    "Yên xe": {
+      "Ma": "77200K1NV00ZB",
+      "Price": 1200000
+    },
+    "Logo sườn": {
+      "Ma": "86831K1NV60ZC",
+      "Price": 210000
+    }
+  },
+  {
+    "Full": "SHM_2023CC_R368-DO-TUOI",
+    "Type": "SHM",
+    "Model": "2023CC",
+    "Color": "R368-DO-TUOI",
+    "Image": "/images/SHM_2023CC_R368-DO-TUOI.png",
+    "Ốp trước tay lái": {
+      "Ma": "53205K1NV00ZH"
+    },
+    "Gáy - Nắp sau tay lái": {
+      "Ma": "53206K1NV00ZB",
+      "Price": 155000
+    },
+    "Nắp ốp đồng hồ": {
+      "Ma": "53207K1NV00",
+      "Price": 235000
+    },
+    "Vành đèn pha": {
+      "Ma": "53208K1NV00",
+      "Price": 260000
+    },
+    "Ốp giữa sau tay lái": {
+      "Ma": "53209K1NV00ZJ",
+      "Price": 220000
+    },
+    "Bộ chắn bùn trước": {
+      "Ma": "61000K1NVD0ZC",
+      "Price": 395000
+    },
+    "Chắn bùn bên trong trước phải": {
+      "Ma": "61201K1NV00ZB",
+      "Price": 75000
+    },
+    "Chắn bùn bên trong trước trái": {
+      "Ma": "61301K1NV00ZB",
+      "Price": 70000
+    },
+    "Mặt nạ to - Bộ ốp trên phía trước": {
+      "Ma": "64300K1NVD0ZE",
+      "Price": 160000
+    },
+    "Yếm phải - Ốp cạnh trước bên phải": {
+      "Ma": "64301K1NV00ZJ",
+      "Price": 230000
+    },
+    "Vành mặt nạ - Trang trí phía trước": {
+      "Ma": "64305K1NV00",
+      "Price": 325000
+    },
+    "Gầm cong - Ốp trước phía dưới": {
+      "Ma": "64308K1NV00",
+      "Price": 110000
+    },
+    "Sàn - Ốp sàn để chân": {
+      "Ma": "64310K1NV00ZB",
+      "Price": 230000
+    },
+    "Ốp bên sàn phải": {
+      "Ma": "64321K1NV00ZJ",
+      "Price": 180000
+    },
+    "Ốp bên sàn trái": {
+      "Ma": "64322K1NV00ZJ",
+      "Price": 180000
+    },
+    "Ốp trước sàn để chân bên phải": {
+      "Ma": "64323K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp trước sàn để chân bên trái": {
+      "Ma": "64324K1NV00ZB",
+      "Price": 20000
+    },
+    "Gầm bằng - Ốp dưới": {
+      "Ma": "64340K1NV00ZB",
+      "Price": 195000
+    },
+    "Yếm trái - Ốp cạnh trước bên trái": {
+      "Ma": "64401K1NV00ZJ"
+    },
+    "Nắp ắc quy - Nắp bình điện": {
+      "Ma": "64461K1NV00ZB",
+      "Price": 25000
+    },
+    "Bắt biển số - Chắn bùn sau A": {
+      "Ma": "80101K1NV00ZB",
+      "Price": 160000
+    },
+    "Chắn bùn B": {
+      "Ma": "80102K1NV00",
+      "Price": 205000
+    },
+    "Chắn bùn gầm - Chắn bùn C sau": {
+      "Ma": "80103K1NV00",
+      "Price": 95000
+    },
+    "Bộ nắp đèn soi biền số": {
+      "Ma": "80110K1NV00ZB",
+      "Price": 95000
+    },
+    "Ốp nhựa trung tâm": {
+      "Ma": "80151K1NV00ZB",
+      "Price": 100000
+    },
+    "Ốp trong phía trên": {
+      "Ma": "81131K1NV00ZJ",
+      "Price": 180000
+    },
+    "Nắp hộp để đồ trong": {
+      "Ma": "81133K1NV00ZJ"
+    },
+    "Ốp ổ khóa - Ốp dưới bên trong": {
+      "Ma": "81141K1NV00ZB",
+      "Price": 375000
+    },
+    "Nắp khẩn cấp - Nắp bảo trì bên phải": {
+      "Ma": "81144K1NV00ZB",
+      "Price": 25000
+    },
+    "Trang trí ốp sườn phải": {
+      "Ma": "83410K1NV00",
+      "Price": 250000
+    },
+    "Trang trí ốp sườn trái": {
+      "Ma": "83420K1NV00",
+      "Price": 250000
+    },
+    "Ốp sàn để chân sau phải": {
+      "Ma": "83430K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau trái": {
+      "Ma": "83440K1NV00ZB",
+      "Price": 25000
+    },
+    "Ốp sàn để chân sau phải B": {
+      "Ma": "83450K1NV00ZB",
+      "Price": 20000
+    },
+    "Ốp sàn để chân sau trái B": {
+      "Ma": "83460K1NV00ZB",
+      "Price": 20000
+    },
+    "Sườn phải - Bộ ốp thân bên phải": {
+      "Ma": "83510K1NVD0ZF",
+      "Price": 785000
+    },
+    "Ốp phải sườn dưới": {
+      "Ma": "83521K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ôp xi nhan sau phải": {
+      "Ma": "83531K1NV00",
+      "Price": 335000
+    },
+    "Sườn trái - Bộ ốp thân bên trái": {
+      "Ma": "83610K1NVD0ZF",
+      "Price": 785000
+    },
+    "Ốp trái sườn dưới": {
+      "Ma": "83621K1NV00ZB",
+      "Price": 20000
+    },
+    "Nắp ốp xi nhan sau trái": {
+      "Ma": "83631K1NV00",
+      "Price": 335000
+    },
+    "Ốp đuôi to - Ốp giữa phía sau A": {
+      "Ma": "83751K1NV00ZJ"
+    },
+    "Ốp đuôi nhỏ - Ốp giữ phía sau B": {
+      "Ma": "83761K1NV00ZJ"
+    },
+    "Yên xe": {
+      "Ma": "77200K1NV00ZA",
+      "Price": 1200000
+    },
+    "Logo sườn": {
+      "Ma": "86831K1NV60ZC",
+      "Price": 210000
     }
   }
 ]
