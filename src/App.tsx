@@ -98,38 +98,56 @@ const App: React.FC = () => {
 
       {/* Display parts with images when only Type is selected and no part is selected */}
       {type && !model && !color && (
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "20px",
-            marginTop: "20px",
-          }}
-        >
-          {data
-            .filter((part) => part.Type === type)
-            .map((part) => (
+        <div style={{ marginTop: "20px" }}>
+          {Object.entries(
+            data
+              .filter((part) => part.Type === type)
+              .reduce((acc, part) => {
+                if (!acc[part.Model]) {
+                  acc[part.Model] = [];
+                }
+                acc[part.Model].push(part);
+                return acc;
+              }, {} as Record<string, PartData[]>)
+          ).map(([modelName, parts]) => (
+            <div key={modelName} style={{ marginBottom: "20px" }}>
+              <h3 style={{ textAlign: "left", color: "#007BFF" }}>
+                {modelName}
+              </h3>
               <div
-                key={`${part.Type}_${part.Model}_${part.Color}`}
-                style={{ textAlign: "center" }}
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "20px",
+                  justifyContent: "flex-start",
+                }}
               >
-                <img
-                  src={`./images/${part.Type}_${part.Model}_${part.Color}.png`}
-                  alt={`${part.Type} ${part.Model} ${part.Color}`}
-                  style={{
-                    width: "150px",
-                    height: "150px",
-                    cursor: "pointer",
-                  }}
-                  onClick={() => handleImageClick(part)}
-                />
-                <div style={{ fontWeight: "bold" }}>
-                  {`${part.Type} ${part.Model} ${part.Color}`}
-                </div>
+                {parts.map((part) => (
+                  <div
+                    key={`${part.Type}_${part.Model}_${part.Color}`}
+                    style={{ textAlign: "center" }}
+                  >
+                    <img
+                      src={`./images/${part.Type}_${part.Model}_${part.Color}.png`}
+                      alt={`${part.Type} ${part.Model} ${part.Color}`}
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        cursor: "pointer",
+                      }}
+                      onClick={() => handleImageClick(part)}
+                    />
+                    <div style={{ fontWeight: "bold" }}>
+                      {`${part.Type} ${part.Model} ${part.Color}`}
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+          ))}
         </div>
       )}
+
       {/* Display parts with images when Type and Model are selected, and no Color is chosen */}
       {type && model && !color && (
         <div
