@@ -1,15 +1,17 @@
-import React from "react";
-import { PartData } from "./types";
+import React, { useState } from "react";
+import { ExPartDetail, PartArray, PartData } from "./types";
 
 interface PartDetailsProps {
   part: PartData | null;
 }
 
 const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
+  const [searchTerm, setSearchTerm] = useState(""); // State cho tìm kiếm
+
   if (!part) {
     return <div>Không tìm thấy thông tin phần.</div>;
   }
-  // console.log(part);
+
   const formatPrice = (price: number) => {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   };
@@ -19,7 +21,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
       console.error("Lỗi khi sao chép: ", err);
     });
   };
-  // console.log(part);
+
   const filtered = Object.entries(part).filter(
     ([_, value]) =>
       typeof value === "object" &&
@@ -45,6 +47,28 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
 
   let globalIndex = 0; // Biến để đánh số thứ tự toàn bộ
 
+  // Hàm xử lý tìm kiếm
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value);
+  };
+
+  // Lọc các item dựa trên term tìm kiếm
+  const filteredItems = Object.entries(groupedData).reduce(
+    (acc: any[], [partName, items]) => {
+      const filteredPartItems = items.filter(
+        ({ name, Ma }) =>
+          name.toLowerCase().includes(searchTerm.trim().toLowerCase()) ||
+          Ma.toLowerCase().includes(searchTerm.trim().toLowerCase())
+      );
+
+      if (filteredPartItems.length > 0) {
+        acc.push([partName, filteredPartItems]);
+      }
+      return acc;
+    },
+    [] as PartArray
+  );
+  // console.log(filteredItems)
   return (
     <div>
       {part.Image && (
@@ -54,35 +78,49 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
           style={{ maxWidth: "100%", height: "auto" }}
         />
       )}
-      <div style={{fontWeight: "bold"}}>{part.Full}</div>
-      {Object.entries(groupedData).map(([partName, items]) => (
-        <div key={partName}>
-          <h4>{partName}</h4>
-          <ul>
-            {items.map(({ name, Ma, Price }) => {
-              globalIndex++; // Tăng chỉ số toàn cục
-              return (
-                <li key={Ma}>
-                  <span style={{ fontWeight: "bold", color: "black" }}>
-                    {globalIndex}.
-                  </span>
-                  <span style={{ color: "#007BFF" }}>{name}:</span> {Ma} -
-                  <span style={{ fontWeight: "bold" }}>
-                    {" "}
-                    {formatPrice(Price)} VND
-                  </span>
-                  <button
-                    onClick={() => handleCopy(Ma)}
-                    style={{ marginLeft: "10px" }}
-                  >
-                    Copy
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      ))}
+
+      {/* Ô input để tìm kiếm */}
+      <input
+        type="text"
+        placeholder="Tìm kiếm theo tên hoặc mã"
+        value={searchTerm}
+        onChange={handleSearch}
+        style={{ marginBottom: "20px", padding: "8px", width: "100%" }}
+      />
+
+      {/* Hiển thị kết quả sau khi tìm kiếm */}
+      {filteredItems.length > 0 ? (
+        filteredItems.map(([partName, items]) => (
+          <div key={partName}>
+            <h4>{partName}</h4>
+            <ul>
+            {items.map(({ name, Ma, Price }: ExPartDetail) => {  // Thêm kiểu ExPartDetail
+                globalIndex++; // Tăng chỉ số toàn cục
+                return (
+                  <li key={Ma}>
+                    <span style={{ fontWeight: "bold", color: "brown" }}>
+                      {globalIndex}. {name}:
+                    </span>{" "}
+                    {Ma} -
+                    <span style={{ fontWeight: "bold" }}>
+                      {" "}
+                      {formatPrice(Price)} VND
+                    </span>
+                    <button
+                      onClick={() => handleCopy(Ma)}
+                      style={{ marginLeft: "10px" }}
+                    >
+                      Copy
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))
+      ) : (
+        <div>Không tìm thấy kết quả.</div>
+      )}
     </div>
   );
 };
