@@ -3,9 +3,10 @@ import { ExPartDetail, PartArray, PartData } from "./types";
 
 interface PartDetailsProps {
   part: PartData | null;
+  inventory: { [key: string]: number } | null;
 }
 
-const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
+const PartDetails: React.FC<PartDetailsProps> = ({ part, inventory }) => {
   const [searchTerm, setSearchTerm] = useState(""); // State cho tìm kiếm
 
   if (!part) {
@@ -102,6 +103,7 @@ const PartDetails: React.FC<PartDetailsProps> = ({ part }) => {
                       {globalIndex}. {name}:
                     </span>{" "}
                     {Ma} -
+                    <span style={{color:"red", fontWeight: "bold"}}> {inventory ? inventory[Ma] : ""}</span> - 
                     <span style={{ fontWeight: "bold" }}>
                       {" "}
                       {formatPrice(Price)} VND

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import data from "./nhua.json"; // Import dữ liệu từ file JSON
 import InputWithDropdown from "./InputWithDropdown";
 import PartDetails from "./PartDetails";
@@ -15,6 +15,9 @@ const App: React.FC = () => {
   const [modelSuggestions, setModelSuggestions] = useState<string[]>([]);
   const [colorSuggestions, setColorSuggestions] = useState<string[]>([]);
 
+  const [inventory, setInventory] = useState<{ [key: string]: number } | null>(
+    null
+  );
   // Handle Search when Model & Color are selected
   const handleSearch = () => {
     const foundPart = data.find(
@@ -62,6 +65,26 @@ const App: React.FC = () => {
   const handleImageClick = (part: PartData) => {
     setSelectedPart(part); // Set the selected part when an image is clicked
   };
+  // Kiểm tra môi trường
+  const isProduction = import.meta.env.MODE === "production";
+  // Function to fetch inventory data from the server
+  const fetchInventory = async () => {
+    try {
+      const response = isProduction
+        ? await fetch(`/api/tonkho`)
+        : await fetch(`${import.meta.env.VITE_API_URL}/tonkho`);
+      if (!response.ok) {
+        throw new Error("Failed to fetch inventory");
+      }
+      const data = await response.json();
+      setInventory(data); // Assume the data is in the format { "PartCode": quantity }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  useEffect(() => {
+    fetchInventory();
+  }, []);
 
   return (
     <div style={{ padding: "10px", maxWidth: "600px", margin: "0 auto" }}>
@@ -183,7 +206,7 @@ const App: React.FC = () => {
         </div>
       )}
       {/* Show details only if part is selected and Model or Color is chosen */}
-      {selectedPart && <PartDetails part={selectedPart} />}
+      {selectedPart && <PartDetails part={selectedPart} inventory={inventory}/>}
     </div>
   );
 };

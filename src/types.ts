@@ -8,6 +8,7 @@ export interface ExPartDetail {
     Price: number;
     Part: string;
     name: string;
+    TonKho?: number;
 }
 export type PartArray = [string, ExPartDetail][];
 export interface PartData {
